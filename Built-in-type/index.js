@@ -14,3 +14,5 @@ console.log(isActivated);
 console.log("Your name is :".concat(firstName, " ").concat(lastName, "\nYour id is:").concat(userId));
 console.log("Your full name is :", fullName);
 console.log(fullName.split(""));
+console.log(fullName.toUpperCase());
+console.log(fullName.toLowerCase());
