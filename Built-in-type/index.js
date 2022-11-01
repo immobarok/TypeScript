@@ -1,0 +1,16 @@
+//built in type :number,string,boolean,void,undefined,null;
+var userId;
+var firstName;
+var lastName;
+var fullName;
+var isActivated;
+userId = 101;
+firstName = "Mobarok";
+lastName = "Ali";
+isActivated = true;
+fullName = firstName.concat(lastName);
+console.log(userId);
+console.log(isActivated);
+console.log("Your name is :".concat(firstName, " ").concat(lastName, "\nYour id is:").concat(userId));
+console.log("Your full name is :", fullName);
+console.log(fullName.split(""));
